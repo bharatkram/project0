@@ -1,4 +1,9 @@
-body {
+/* body {
     background-image: url(images/1898317.jpg);
     background-size: cover;
+} */
+.row > div {
+    padding: 20px;
+    background-color: teal;
+    border: 2px solid black;
 }
