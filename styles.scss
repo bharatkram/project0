@@ -1,0 +1,14 @@
+%inheritance-example {
+    border: 2px ridge black;
+}
+
+.pages {
+    .gallery {
+        @extend %inheritance-example;
+        position: relative;
+    }
+    #fixedbutton {
+        @extend %inheritance-example;
+        position: fixed;
+    }
+}
